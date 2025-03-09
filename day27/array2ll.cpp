@@ -163,7 +163,7 @@ return head;
     
 
 int main(){
-    vector<int> arr={11,2,3,4,5,6};
+    vector<int> arr={1,2,3,4,5,6};
     Node* y=new Node(arr[0]);
     Node* head=array2ll(arr);
     cout<<"original ll:"<<endl;
@@ -191,8 +191,9 @@ int main(){
     // printLL(head);
     // head=insertTail(head, 100);
     // printLL(head);
-    head=insertBeforeval(head,100,5);
-    printLL(head);
+    // head=insertBeforeval(head,100,5);
+    // printLL(head);
+    
     
 
 }
