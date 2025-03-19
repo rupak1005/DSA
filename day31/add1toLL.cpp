@@ -10,14 +10,14 @@ class Node{
     Node(int data1,Node* next1){
         data=data1;
         next=next1;
-        
+
     }
     Node(int data1){
         data=data1;
         next=nullptr;
     }
-    
-    
+
+
 };
 
 Node* reverserecur(Node* head){
@@ -45,7 +45,7 @@ Node* add1toLL(Node* head){
             temp->data=0;
         }
         temp=temp->next;
-        
+
     }
     if(carry==1){
         Node* newnode=new Node(1);
@@ -55,8 +55,8 @@ Node* add1toLL(Node* head){
     }
     head=reverserecur(head);
     return head;
-   
-    
+
+
 }
 
 Node* vector2LL(vector<int> &arr){
@@ -86,3 +86,5 @@ head=add1toLL(head);
 
 printLL(head);
 }
+//commit
+//commit
