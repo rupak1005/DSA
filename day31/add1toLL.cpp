@@ -59,6 +59,30 @@ Node* add1toLL(Node* head){
 
 }
 
+
+
+int addhelper(Node* temp){
+    if(temp==NULL){
+        return 1;
+    }
+    int carry=addhelper(temp->next);
+    temp->data+=carry;
+    if(temp->data<10){
+        return 0;
+    }
+    temp->data=0;
+    return 1;
+}
+Node* add1(Node* head){
+    int carry=addhelper(head);
+    if(carry==1){
+        Node* newnode=new Node(1);
+        newnode->next=head;
+        head=newnode;
+    }
+    return head;
+}
+
 Node* vector2LL(vector<int> &arr){
 Node* head=new Node(arr[0]);
 Node* prev=head;
@@ -82,7 +106,7 @@ cout<<"NULL";
 int main(){
 vector<int> arr={9,9,9};
 Node* head=vector2LL(arr);
-head=add1toLL(head);
+head=add1(head);
 
 printLL(head);
 }
