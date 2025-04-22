@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 ## Array
 |  |
 | ------- |
+| [0031-next-permutation](https://github.com/rupak1005/DSA/tree/master/0031-next-permutation) |
 | [0073-set-matrix-zeroes](https://github.com/rupak1005/DSA/tree/master/0073-set-matrix-zeroes) |
 ## Hash Table
 |  |
@@ -13,4 +14,8 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 |  |
 | ------- |
 | [0073-set-matrix-zeroes](https://github.com/rupak1005/DSA/tree/master/0073-set-matrix-zeroes) |
+## Two Pointers
+|  |
+| ------- |
+| [0031-next-permutation](https://github.com/rupak1005/DSA/tree/master/0031-next-permutation) |
 <!---LeetCode Topics End-->
