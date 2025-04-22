@@ -6,10 +6,12 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | ------- |
 | [0031-next-permutation](https://github.com/rupak1005/DSA/tree/master/0031-next-permutation) |
 | [0073-set-matrix-zeroes](https://github.com/rupak1005/DSA/tree/master/0073-set-matrix-zeroes) |
+| [0128-longest-consecutive-sequence](https://github.com/rupak1005/DSA/tree/master/0128-longest-consecutive-sequence) |
 ## Hash Table
 |  |
 | ------- |
 | [0073-set-matrix-zeroes](https://github.com/rupak1005/DSA/tree/master/0073-set-matrix-zeroes) |
+| [0128-longest-consecutive-sequence](https://github.com/rupak1005/DSA/tree/master/0128-longest-consecutive-sequence) |
 ## Matrix
 |  |
 | ------- |
@@ -18,4 +20,8 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 |  |
 | ------- |
 | [0031-next-permutation](https://github.com/rupak1005/DSA/tree/master/0031-next-permutation) |
+## Union Find
+|  |
+| ------- |
+| [0128-longest-consecutive-sequence](https://github.com/rupak1005/DSA/tree/master/0128-longest-consecutive-sequence) |
 <!---LeetCode Topics End-->
