@@ -28,6 +28,6 @@ vector<int> findmissingnrepeating(vector<int> &nums){
 int main(){
     vector<int> nums={1,2,3,3,5};
     vector<int> ans=findmissingnrepeating(nums);
-    cout<<"Missing number is "<<ans[0]<<" and repeating number is "<<ans[1]<<endl;
+    cout<<"Repeating number is "<<ans[0]<<" and missing number is "<<ans[1]<<endl;
     
 }
