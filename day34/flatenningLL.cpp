@@ -12,7 +12,6 @@ public:
         child = nullptr;
     }
 };
-
 Node* vector2LL(vector<int>& arr) {
     Node* head = new Node(arr[0]);
     Node* prev = head;
