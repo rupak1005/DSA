@@ -5,7 +5,6 @@ using namespace std;
 
 
 
-
 void majorityElement(vector<int> &vec ,int n){
     for(int i=0;i<n;i++){
         int freq=1;
