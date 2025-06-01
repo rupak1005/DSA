@@ -13,7 +13,6 @@ void printIntersection(int arr1[], int size1, int arr2[], int size2) {
     }
     cout << endl;
 }
-
 int main() {
     int arr1[] = {1, 2, 3, 4, 5};
     int arr2[] = {3, 4, 5, 6, 7,3};
